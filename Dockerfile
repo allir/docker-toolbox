@@ -6,6 +6,7 @@ RUN set -eu; \
     apt-get update && \
     apt-get install -y --no-install-recommends \
       git \
+      ca-certificates \
       curl \
       jq \
     && \ 
